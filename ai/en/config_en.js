@@ -52,7 +52,7 @@ var config = {
             id: "heidelberg",
             title: "AI hotspots in Heidelberg",
             image: 'assets/heidelberg.jpg',
-            description: "This is an example showing the AI hotspots in Heidelberg - i.e. those neighborhoods in which the proportion of companies with AI is particularly high. The small city in southern Germany is characterized by an overall comparatively high share (1.3%; 9th place out of 402 in Germany) of companies with AI, also in comparison with another southern German university city with a similar economic structure, which we want to look at next.",
+            description: "This is an example showing the AI hotspots (red) in Heidelberg - i.e. those neighborhoods in which the proportion of companies with AI is particularly high. The small city in southern Germany is characterized by an overall comparatively high share (1.3%; 9th place out of 402 in Germany) of companies with AI, also in comparison with another southern German university city with a similar economic structure, which we want to look at next.",
             alignment: 'left',
             location: {
                 center: [8.67362, 49.41059],

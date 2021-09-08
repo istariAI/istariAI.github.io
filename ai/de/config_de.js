@@ -52,7 +52,7 @@ var config = {
             id: "heidelberg",
             title: "KI Hotspots in Heidelberg",
             image: 'assets/heidelberg.jpg',
-            description: "Hier seht ihr beispielhaft die KI-Hotspots in Heidelberg - also die Nachbarschaften, in denen der Anteil an Unternehmen mit KI besonders hoch ist. Die kleine Stadt in Süddeutschland zeichnet sich durch einen insgesamt vergleichsweise hohen Anteil (1,3%; 9. Platz von 402 in Deutschland) von Unternehmen mit KI aus, auch im Vergleich mit einer anderen süddeutschen Universitätsstadt, die eine ähnliche Wirtschaftsstruktur hat und die wir uns als Nächstes anschauen wollen.",
+            description: "Hier seht ihr beispielhaft die KI-Hotspots (rot) in Heidelberg - also die Nachbarschaften, in denen der Anteil an Unternehmen mit KI besonders hoch ist. Die kleine Stadt in Süddeutschland zeichnet sich durch einen insgesamt vergleichsweise hohen Anteil (1,3%; 9. Platz von 402 in Deutschland) von Unternehmen mit KI aus, auch im Vergleich mit einer anderen süddeutschen Universitätsstadt, die eine ähnliche Wirtschaftsstruktur hat und die wir uns als Nächstes anschauen wollen.",
             alignment: 'left',
             location: {
                 center: [8.67362, 49.41059],
