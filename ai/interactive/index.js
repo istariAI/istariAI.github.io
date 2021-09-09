@@ -28,7 +28,7 @@ fetch("data/know_how_boundary.json")
 
   const deckgl = new deck.DeckGL({
     container: 'map',
-    mapStyle: 'mapbox://styles/istariai/cksomq77y1otr17o6zl8po6ji',
+    mapStyle: 'mapbox://styles/istariai/ckt8nk7h4541f17k7idd5jesc',
     mapboxApiAccessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
     initialViewState: {
       longitude: 10,
