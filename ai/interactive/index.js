@@ -31,8 +31,8 @@ fetch("data/know_how_boundary.json")
     mapStyle: 'mapbox://styles/istariai/ckt8nk7h4541f17k7idd5jesc',
     mapboxApiAccessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
     initialViewState: {
-      longitude: 10,
-      latitude: 49,
+      longitude: 10.5,
+      latitude: 50.3,
       zoom: 5.5,
       pitch: 0,
       bearing: 0
