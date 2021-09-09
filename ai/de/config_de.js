@@ -6,7 +6,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
     theme: 'light',
     //theme: 'light',
-    footer: '© Copyright 2021 <a href="https://janakiev.com/">Nikolai Janakiev</a> and <a href="https://istari.ai/">ISTARI.AI</a><br><a href="https://istari.ai/impressum/">Impressum</a>',
+    footer: '© Copyright 2021 <a href="https://janakiev.com/">Nikolai Janakiev</a> und <a href="https://istari.ai/">ISTARI.AI</a><br><a href="https://istari.ai/impressum/">Impressum</a>',
     colorMaps: {
         'default': [
             [  0, 210, 212],
