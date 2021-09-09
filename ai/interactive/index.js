@@ -34,8 +34,8 @@ fetch("data/know_how_boundary.json")
       longitude: 10,
       latitude: 49,
       zoom: 5.5,
-      pitch: 50,
-      bearing: 20
+      pitch: 0,
+      bearing: 0
     },
     controller: { 
       scrollZoom: true,
