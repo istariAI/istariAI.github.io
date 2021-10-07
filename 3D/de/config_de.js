@@ -9,7 +9,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
     theme: 'light',
     //theme: 'light',
-    footer: '© Copyright 2021 <a href="https://janakiev.com/">Nikolai Janakiev</a> und <a href="https://istari.ai/">ISTARI.AI</a><br><a href="https://istari.ai/impressum/">Impressum</a>',
+    footer: '© Copyright 2021 <a href="https://janakiev.com/">Nikolai Janakiev</a>, <a href="https://istari.ai/">ISTARI.AI</a> und <a href="https://www.professors.wi.tum.de/eoi/startseite/">Technische Universität München</a> <br><a href="https://istari.ai/impressum/">Impressum</a>',
     colorMaps: {
         'default': [
             [  0, 210, 212],
@@ -54,7 +54,7 @@ var config = {
         {
             id: "jena",
             title: "3D-Druck-Hotspot Jena",
-            image: 'assets/jena.jpg',
+            image: 'assets/jena (placeholder).jpg',
             description: "Text für Jena einfügen",
             alignment: 'left',
             location: {
@@ -135,9 +135,29 @@ var config = {
             ]
         },
         {
+            id: "paper",
+            title: "",
+            description: "Weitere Informationen findet ihr in unserem Paper 'Technology Mapping Using WebAI: The Case of 3D Printing' <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kann Uctum",
+            alignment: 'right',
+            location: {
+                center: [8.48, 49.48],
+                zoom: 7,
+                pitch: 0,
+                bearing: 0
+            },
+            layers: [
+                {
+                    id: 'de',
+                    type: 'geojson',
+                    colorMap: 'default',
+                    data: 'data/3D_engaged_edited.json'
+                }
+            ]
+        },
+        {
             id: "total-data",
             title: "",
-            description: "Das waren jetzt nur zwei Beispiele für Städte. Die anderen knapp zwei Millionen Unternehmen haben wir <a href=\"https://stories.istari.ai/ai/interactive\">hier</a> nach Regionen zusammengefasst. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an KI-Unternehmen anzuschauen. Vorsicht, in der Schweiz ist die Zuordnung von Unternehmen zu Regionen noch etwas ungenau...daran arbeiten wir noch. <br><br>Wenn du wissen willst, wie die webAI funktioniert, dann schau dir das Video weiter unten an.",
+            description: "Das waren jetzt nur zwei Beispiele für Städte. Die anderen knapp zwei Millionen Unternehmen haben wir <a href=\"https://stories.istari.ai/ai/interactive\">hier</a> nach Regionen zusammengefasst. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video weiter unten an.",
             alignment: 'left',
             location: {
                 center: [8.48, 49.48],
