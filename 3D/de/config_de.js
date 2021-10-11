@@ -1,15 +1,18 @@
 
 // pictures are only placeholders --> check for copyrights/licenses
+// change TUM logo (official one + size)
 
 var config = {
-    title: "­3D-Druck in Deutschland",
+    // title: "3D-Druck in Deutschland",
     //subtitle: "<a href=\"http://example.org\" lang=\"en\" hreflang=\"de\">Click for German version</a>",
     //byline: "Byline",
+    image: 'assets/Istari_farbig.png',
     style: 'mapbox://styles/istariai/ckt8nk7h4541f17k7idd5jesc',
     accessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
     theme: 'light',
-    //theme: 'light',
-    footer: '© Copyright 2021 <a href="https://janakiev.com/">Nikolai Janakiev</a>, <a href="https://istari.ai/">ISTARI.AI</a> und <a href="https://www.professors.wi.tum.de/eoi/startseite/">Technische Universität München</a> <br><a href="https://istari.ai/impressum/">Impressum</a>',
+    //theme: 'light'
+    header: '<br> <a href="https://istari.ai/"> <img src="assets/Istari_farbig.png" style="float:left; width:232px;height:37px;"> </a>  <a href="https://www.professors.wi.tum.de/eoi/startseite/""> <img src="assets/tum_logo.jpg" style="float:right;width:232px;height:37px;"> </a> <h1> 3D-Druck in Deutschland</h1> <br>',
+    footer: '© Copyright 2021 <a href="https://janakiev.com/">Nikolai Janakiev</a>, <a href="https://istari.ai/">ISTARI.AI</a> und <a href="https://www.professors.wi.tum.de/eoi/startseite/">Technische Universität München</a> <br> <a href="https://istari.ai/impressum/">Impressum</a> <br><br> <img src="assets/Istari_farbig.png" style="width:232px;height:37px;">',
     colorMaps: {
         'default': [
             [  0, 210, 212],
@@ -139,7 +142,7 @@ var config = {
         {
             id: "paper",
             title: "",
-            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href='https://stories.istari.ai/3D/de/'>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kann Uctum",
+            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href='https://stories.istari.ai/3D/de/'>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum",
             alignment: 'right',
             location: {
                 center: [8.48, 49.48],

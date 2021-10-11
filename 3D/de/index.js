@@ -111,6 +111,12 @@ features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
 
+if (config.header) {
+  var headerText = document.createElement('p');
+  headerText.innerHTML = config.header;
+  header.appendChild(headerText);
+}
+
 if (config.title) {
   var titleText = document.createElement('h1');
   titleText.innerText = config.title;
