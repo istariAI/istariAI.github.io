@@ -34,7 +34,7 @@ var config = {
         {
             id: "dach-start",
             title: "",
-            description: "Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br> 3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe an Fertigungstechnologien. Dabei werden, durch das schichtweise Auftragen von Material und basierend auf einem digitalem Design, komplexe, dreidimensionale physische Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Flexibilität und der Freiheit im Design herzustellender Produkte. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. Mit einer jährlichen Wachstumsrate von 25% seit 2014, betrug der globale Markt für 3D-Druck in 2018 $9,3 Mrd. und wächst bis 2024 auf prognostizierte $34 Mrd. an.",
+            description: "Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br> 3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe an Fertigungstechnologien. Dabei werden, durch das schichtweise Auftragen von Material und basierend auf einem digitalem Design, komplexe, dreidimensionale physische Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Flexibilität und der Freiheit im Design herzustellender Produkte. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. Mit einer jährlichen Wachstumsrate von 25% seit 2014, betrug der globale Markt für 3D-Druck in 2018 $9,3 Mrd. und wächst bis 2024 auf prognostizierte $34 Mrd. an. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
             alignment: 'left',
             location: {
                 center: [8, 51.5],
@@ -48,7 +48,13 @@ var config = {
                     type: 'geojson',
                     colorMap: 'default',
                     data: 'data/3D_engaged_edited.json'
-                }
+                },
+                {
+                    id: 'hotspot_labels',
+                    type: 'bitmap',
+                    image: 'data/hotspot_labels.png',
+                    bounds: [5.4197322122883627,46.9744237769598598, 15.4178439372327940,55.2671564545392613]
+                },
             ]
         },
         {
@@ -58,10 +64,8 @@ var config = {
             description: "Text für Jena einfügen",
             alignment: 'left',
             location: {
-                center: [11.58, 50.92],
-                zoom: 11,
-                pitch: 20,
-                bearing: 0
+                center: [11.48, 50.92],
+                zoom: 11
             },
             layers: [
                 {
@@ -84,10 +88,8 @@ var config = {
             description: "Pforzheim ist eine Großstadt am Nordrand des Schwarzwaldes. Sie ist weithin als “Goldstadt” bekannt, da ihre Schmuckindustrie knapp 80% des deutschen Exportschmucks produziert. Darüber hinaus stellt Pforzheim einen besonderen Standort für Zulieferer der Automobil- und Maschinenbauindustrie dar.",
             alignment: 'right',
             location: {
-                center: [8.69, 48.89],
-                zoom: 11,
-                pitch: 30,
-                bearing: -20
+                center: [8.815, 48.89],
+                zoom: 11
             },
             layers: [
                 {
@@ -106,7 +108,7 @@ var config = {
         {
             id: "technical-universities",
             title: "Erklärung: Technische Universitäten",
-            description: "Text für TUs einfügen",
+            description: "Wir sehen eine Korrelation zwischen der Verbreitung der 3D-Drucktechnologie und den technischen Universitäten in der Region. Technische Universitäten können eine Rolle dabei spielen, Anreize für die Erforschung dieser neuen, aufstrebenden Technologie zu schaffen und die Start-ups zu fördern, die diese Technologie nutzen werden.",
             alignment: 'left',
             location: {
                 center: [8, 51.5],
@@ -137,7 +139,7 @@ var config = {
         {
             id: "paper",
             title: "",
-            description: "Weitere Informationen findet ihr in unserem Paper 'Technology Mapping Using WebAI: The Case of 3D Printing' <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kann Uctum",
+            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href='https://stories.istari.ai/3D/de/'>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kann Uctum",
             alignment: 'right',
             location: {
                 center: [8.48, 49.48],
