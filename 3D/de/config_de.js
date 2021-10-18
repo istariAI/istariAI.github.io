@@ -11,7 +11,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
     theme: 'light',
     //theme: 'light'
-    header: '<br> <a href="https://istari.ai/"> <img src="assets/Istari_farbig.png" style="float:left; width:232px;height:37px;"> </a>  <a href="https://www.professors.wi.tum.de/eoi/startseite/""> <img src="assets/tum_logo.jpg" style="float:right;width:232px;height:37px;"> </a> <h1> 3D-Druck in Deutschland</h1> <br>',
+    header: '<br> <a href="https://istari.ai/"> <img src="assets/Istari_farbig.png" style="float:left; vertical-align:middle; margin-left: 30px; width:282px;height:45px;"> </a>  <a href="https://www.professors.wi.tum.de/eoi/startseite/""> <img src="assets/tum_logo.png" style="float:right;vertical-align:top; margin-right: 30px;width:135px;height:50px;"> </a> <h1>3D-Druck in Deutschland</h1> <br>',
     footer: '© Copyright 2021 <a href="https://janakiev.com/">Nikolai Janakiev</a>, <a href="https://istari.ai/">ISTARI.AI</a> und <a href="https://www.professors.wi.tum.de/eoi/startseite/">Technische Universität München</a> <br> <a href="https://istari.ai/impressum/">Impressum</a> <br><br> <img src="assets/Istari_farbig.png" style="width:232px;height:37px;">',
     colorMaps: {
         'default': [
@@ -134,7 +134,7 @@ var config = {
             alignment: 'right',
             location: {
                 center: [8.48, 49.48],
-                zoom: 7,
+                zoom: 9,
                 pitch: 0,
                 bearing: 0
             },
@@ -154,7 +154,7 @@ var config = {
             alignment: 'left',
             location: {
                 center: [8.48, 49.48],
-                zoom: 9,
+                zoom: 11,
                 pitch: 0,
                 bearing: 0
             },
@@ -175,7 +175,7 @@ var config = {
             alignment: 'full',
             location: {
                 center: [8.48, 49.48],
-                zoom: 11,
+                zoom: 13,
                 pitch: 0,
                 bearing: 0
             },
