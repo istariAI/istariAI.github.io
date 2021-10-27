@@ -1,7 +1,3 @@
-
-// pictures are only placeholders --> check for copyrights/licenses
-// change TUM logo (official one + size)
-
 var config = {
     // title: "3D-Druck in Deutschland",
     //subtitle: "<a href=\"http://example.org\" lang=\"en\" hreflang=\"de\">Click for German version</a>",
@@ -37,7 +33,7 @@ var config = {
         {
             id: "dach-start",
             title: "",
-            description: "Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br> 3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe an Fertigungstechnologien. Dabei werden, durch das schichtweise Auftragen von Material und basierend auf einem digitalem Design, komplexe, dreidimensionale physische Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Flexibilität und der Freiheit im Design herzustellender Produkte. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. Mit einer jährlichen Wachstumsrate von 25% seit 2014, betrug der globale Markt für 3D-Druck in 2018 $9,3 Mrd. und wächst bis 2024 auf prognostizierte $34 Mrd. an. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
+            description: "Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br> 3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
             alignment: 'left',
             location: {
                 center: [8, 51.5],
@@ -64,7 +60,7 @@ var config = {
             id: "jena",
             title: "3D-Druck-Hotspot Jena",
             image: '',
-            description: "Jena ist eine Universitätsstadt in Mitteldeutschland an der Saale. Sie ist nach der Landeshauptstadt Erfurt die zweitgrößte Stadt in Thüringen. Die Stadt wird auch als “Lichtstadt” bezeichnet, da sie als Wiege der optischen Industrie in Europa gilt. Ursprung war die Gründung des Unternehmens Zeiss in Jena in der Mitte des 19. Jahrhunderts. Inzwischen ist insbesondere die enge Zusammenarbeit der beiden Hochschulen mit Forschungszentren und lokaler Industrie ausschlaggebend. So ist Jena auch europäisches Zentrum der Forschung im Bereich Optik und Photonik.",
+            description: "Jena ist eine Universitätsstadt in Mitteldeutschland an der Saale. Sie ist nach der Landeshauptstadt Erfurt die zweitgrößte Stadt in Thüringen. Die Stadt wird auch als “Lichtstadt” bezeichnet, da sie als Wiege der optischen Industrie in Europa gilt. Ursprung war die Gründung des Unternehmens Zeiss in Jena in der Mitte des 19. Jahrhunderts. Inzwischen ist insbesondere die enge Zusammenarbeit der beiden Hochschulen mit Forschungszentren und lokaler Industrie kennzeichnend für die Region. So ist Jena auch europäisches Zentrum der Forschung im Bereich Optik und Photonik.",
             alignment: 'left',
             location: {
                 center: [11.48, 50.92],
@@ -97,9 +93,27 @@ var config = {
             ]
         },
         {
+            id: "munich",
+            title: "Landeshauptstadt München",
+            image: 'assets/munich.JPG',
+            description: "<li>Beispiel für Großstadt</\li><br> <li>Industrie und starke Universitäten & Forschungszentren</\li><br><li>Standort von 3D Druck Marktführern (z.B. Oerlikon und EOS)</\li><br>",
+            alignment: 'right',
+            location: {
+                center: [11.73, 48.16],
+                zoom: 11
+            },
+            layers: [
+                {
+                    id: 'hd-scatter',
+                    type: 'scatter',
+                    data: 'data/HD_firms.json'
+                }
+            ]
+        },
+        {
             id: "technical-universities",
-            title: "Erklärung: Technische Universitäten",
-            description: "Wir sehen eine Korrelation zwischen der Verbreitung der 3D-Drucktechnologie und den technischen Universitäten in der Region. Technische Universitäten können eine Rolle dabei spielen, Anreize für die Erforschung dieser neuen, aufstrebenden Technologie zu schaffen und die Start-ups zu fördern, die diese Technologie nutzen werden.",
+            title: "Bedeutung von Universitäten",
+            description: "Die 3D-Drucktechnologie ist besonders verbreitet an Standorten von technischen Universitäten. Technische Universitäten spielen eine wichtige Rolle nicht nur in der Erforschung neuer Technologien, sondern auch in der Diffusion durch ihren Beitrag zu wissensbasierten Gründungen und der Ausbildung von Fachpersonal.",
             alignment: 'left',
             location: {
                 center: [8, 51.5],
@@ -130,7 +144,7 @@ var config = {
         {
             id: "paper",
             title: "",
-            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href='https://stories.istari.ai/3D/de/'>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum",
+            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum",
             alignment: 'right',
             location: {
                 center: [8.48, 49.48],
