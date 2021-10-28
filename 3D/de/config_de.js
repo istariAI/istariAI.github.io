@@ -111,10 +111,16 @@ var config = {
             description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Einige der Marktführer im deutschen 3D-Druck (z.B. Oerlikon, EOS) haben ihren Sitz in München. Im nahgelegenen Landkreis Starnberg konnten wir einen weiteren 3D-Druck-Hotspot detektieren.",
             alignment: 'right',
             location: {
-                center: [11.73, 48.16],
-                zoom: 11
+                center: [11.63, 48.14],
+                zoom: 10.5
             },
             layers: [
+                {
+                    id: 'munich_heatmap',
+                    type: 'bitmap',
+                    image: 'data/munich_heatmap.png',
+                    bounds: [11.353,47.999,11.744,48.275]
+                },
                 {
                     id: 'hd-scatter',
                     type: 'scatter',
