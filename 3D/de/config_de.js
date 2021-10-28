@@ -74,9 +74,9 @@ var config = {
                     bounds: [11.521,50.848,11.707,50.978]
                 },
                 {
-                    id: 'hd-scatter',
+                    id: 'jena-scatter',
                     type: 'scatter',
-                    data: 'data/HD_firms.json'
+                    data: 'data/jena_firms.json'
                 }
             ]
         },
@@ -98,9 +98,9 @@ var config = {
                     bounds: [8.628,48.823, 8.784,48.933]
                 },
                 {
-                    id: 'fr-scatter',
+                    id: 'pforzheim-scatter',
                     type: 'scatter',
-                    data: 'data/FR_firms.json'
+                    data: 'data/pforzheim_firms.json'
                 }
             ]
         },
@@ -111,7 +111,7 @@ var config = {
             description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Einige der Marktführer im deutschen 3D-Druck (z.B. Oerlikon, EOS) haben ihren Sitz in München. Im nahgelegenen Landkreis Starnberg konnten wir einen weiteren 3D-Druck-Hotspot detektieren.",
             alignment: 'right',
             location: {
-                center: [11.63, 48.14],
+                center: [11.66, 48.14],
                 zoom: 10.5
             },
             layers: [
@@ -122,9 +122,9 @@ var config = {
                     bounds: [11.353,47.999,11.744,48.275]
                 },
                 {
-                    id: 'hd-scatter',
+                    id: 'munich-scatter',
                     type: 'scatter',
-                    data: 'data/HD_firms.json'
+                    data: 'data/munich_firms.json'
                 }
             ]
         },
