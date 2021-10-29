@@ -108,7 +108,7 @@ var config = {
             id: "munich",
             title: "Landeshauptstadt München",
             image: 'assets/munich.JPG',
-            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Einige der Marktführer im deutschen 3D-Druck (z.B. Oerlikon, EOS) haben ihren Sitz in München. Im nahgelegenen Landkreis Starnberg konnten wir einen weiteren 3D-Druck-Hotspot detektieren.",
+            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Einige der Marktführer im deutschen 3D-Druck (z.B. Oerlikon) haben ihren Sitz in München. Im nahgelegenen Landkreis Starnberg konnten wir einen weiteren 3D-Druck-Hotspot detektieren.",
             alignment: 'right',
             location: {
                 center: [11.66, 48.14],
@@ -174,7 +174,7 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "Das waren jetzt nur zwei Beispiele für Städte. Die anderen knapp zwei Millionen Unternehmen haben wir <a href=\"https://stories.istari.ai/ai/interactive\">hier</a> nach Regionen zusammengefasst. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video weiter unten an.",
+            description: "Das waren jetzt nur zwei Beispiele für Städte. Die anderen knapp zwei Millionen Unternehmen haben wir <a href=\"https://stories.istari.ai/3D/interactive\">hier</a> nach Regionen zusammengefasst. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video weiter unten an.",
             alignment: 'left',
             location: {
                 center: [8.48, 49.48],
