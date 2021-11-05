@@ -33,8 +33,34 @@ var config = {
         {
             id: "dach-start",
             title: "",
-            description: "Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br> 3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
+            description: "↓ Zum Benutzen einfach nach unten scrollen ↓ <br><br>Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br>3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
             alignment: 'left',
+            location: {
+                center: [8, 51.5],
+                zoom: 5.3,
+                pitch: 0,
+                bearing: 0
+            },
+            layers: [
+                {
+                    id: 'de',
+                    type: 'geojson',
+                    colorMap: 'default',
+                    data: 'data/3D_engaged_edited.json'
+                },
+                {
+                    id: 'hotspot_labels',
+                    type: 'bitmap',
+                    image: 'data/hotspot_labels.png',
+                    bounds: [5.4197322122883627,46.9744237769598598, 15.4178439372327940,55.2671564545392613]
+                },
+            ]
+        },
+        {
+            id: "total-data",
+            title: "",
+            description: "Für unsere Analyse haben wir knapp zwei Millionen Unternehmen untersucht. <a href=\"https://stories.istari.ai/3D/interactive\">Hier</a> findest du eine interaktive Karte, auf der unsere Ergebnisse nach Regionen zusammengefasst wurden. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
+            alignment: 'right',
             location: {
                 center: [8, 51.5],
                 zoom: 5.3,
@@ -108,7 +134,7 @@ var config = {
             id: "munich",
             title: "Landeshauptstadt München",
             image: 'assets/munich.JPG',
-            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Einige der Marktführer im deutschen 3D-Druck (z.B. Oerlikon) haben ihren Sitz in München. Im nahgelegenen Landkreis Starnberg konnten wir einen weiteren 3D-Druck-Hotspot detektieren.",
+            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Einige der Marktführer im deutschen 3D-Druck (z.B. Oerlikon) haben ihren Sitz in München. Im nahgelegenen Landkreis Starnberg finden wir einen weiteren 3D-Druck-Hotspot.",
             alignment: 'right',
             location: {
                 center: [11.66, 48.14],
@@ -170,18 +196,6 @@ var config = {
                 pitch: 0,
                 bearing: 0
             },
-        },
-        {
-            id: "total-data",
-            title: "",
-            description: "Das waren jetzt nur zwei Beispiele für Städte. Die anderen knapp zwei Millionen Unternehmen haben wir <a href=\"https://stories.istari.ai/3D/interactive\">hier</a> nach Regionen zusammengefasst. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video weiter unten an.",
-            alignment: 'left',
-            location: {
-                center: [8.48, 49.48],
-                zoom: 11,
-                pitch: 0,
-                bearing: 0
-            }
         },
         {
             id: "final",
