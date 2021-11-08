@@ -6,7 +6,6 @@ var config = {
     style: 'mapbox://styles/istariai/ckt8nk7h4541f17k7idd5jesc',
     accessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
     theme: 'light',
-    //theme: 'light'
     header: '<br> <a href="https://istari.ai/"> <img src="assets/Istari_farbig.png" style="float:left; vertical-align:middle; margin-left: 30px; width:282px;height:45px;"> </a>  <a href="https://www.professors.wi.tum.de/eoi/startseite/""> <img src="assets/tum_logo.png" style="float:right;vertical-align:top; margin-right: 30px;width:135px;height:50px;"> </a> <h1>3D-Druck in Deutschland</h1> <br>',
     footer: '© Copyright 2021 <a href="https://janakiev.com/">Nikolai Janakiev</a>, <a href="https://istari.ai/">ISTARI.AI</a> und <a href="https://www.professors.wi.tum.de/eoi/startseite/">Technische Universität München</a> <br> <a href="https://istari.ai/impressum/">Impressum</a> <br><br> <img src="assets/Istari_farbig.png" style="width:232px;height:37px;">',
     colorMaps: {
@@ -33,7 +32,7 @@ var config = {
         {
             id: "dach-start",
             title: "",
-            description: "↓ Zum Benutzen einfach nach unten scrollen ↓ <br><br>Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br>3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
+            description: "↓ Zum Benutzen einfach nach unten scrollen ↓ <br><br>Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br>3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.<br><br> <img src=\"assets/colourbar_de.png\" style=\"width:384px;height:58px;\"> ",
             alignment: 'left',
             location: {
                 center: [8, 51.5],
