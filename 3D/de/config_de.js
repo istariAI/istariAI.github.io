@@ -85,7 +85,7 @@ var config = {
         {
             id: "jena",
             title: "3D-Druck-Hotspot Jena",
-            image: '',
+            image: 'assets/Jena.jpg',
             description: "Jena ist eine Universitätsstadt in Mitteldeutschland an der Saale. Sie ist nach der Landeshauptstadt Erfurt die zweitgrößte Stadt in Thüringen. Die Stadt wird auch als “Lichtstadt” bezeichnet, da sie als Wiege der optischen Industrie in Europa gilt. Ursprung war die Gründung des Unternehmens Zeiss in Jena in der Mitte des 19. Jahrhunderts. Inzwischen ist insbesondere die enge Zusammenarbeit der beiden Hochschulen mit Forschungszentren und lokaler Industrie kennzeichnend für die Region. So ist Jena auch europäisches Zentrum der Forschung im Bereich Optik und Photonik.",
             alignment: 'left',
             location: {
