@@ -178,6 +178,12 @@ config.chapters.forEach((record, idx) => {
     story.innerHTML = record.description;
     chapter.appendChild(story);
   }
+
+    if (record.image_bottom) {
+    var image_bottom = new Image();
+    image_bottom.src = record.image_bottom;
+    chapter.appendChild(image_bottom);
+  }
   
   container.setAttribute('id', record.id);
   container.classList.add('step');

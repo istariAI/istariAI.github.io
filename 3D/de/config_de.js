@@ -34,7 +34,7 @@ var config = {
             id: "dach-start",
             title: "",
             description: "↓ Zum Benutzen einfach nach unten scrollen ↓ <br><br>Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br>3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
-            image: 'assets/colourbar_de.png',
+            image_bottom: 'assets/colourbar_de.png',
             alignment: 'left',
             location: {
                 center: [9, 51.25],
@@ -61,7 +61,7 @@ var config = {
             id: "total-data",
             title: "",
             description: "Für unsere Analyse haben wir knapp zwei Millionen Unternehmen untersucht. <a href=\"https://stories.istari.ai/3D/interactive\">Hier</a> findest du eine interaktive Karte, auf der unsere Ergebnisse nach Regionen zusammengefasst wurden. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
-            image: 'assets/logos.png',
+            image: 'assets/logos_transparent.png',
             alignment: 'right',
             location: {
                 center: [13, 51.25],
