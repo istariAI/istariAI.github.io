@@ -33,7 +33,7 @@ var config = {
         {
             id: "dach-start",
             title: "",
-            description: "↓ Zum Benutzen einfach nach unten scrollen ↓ <br><br>Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br>3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
+            description: "↓ Zum Benutzen einfach nach unten scrollen ↓ <br><br>Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br>3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für das Prototyping und die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
             image_bottom: 'assets/colourbar_de.png',
             alignment: 'left',
             location: {
@@ -136,7 +136,7 @@ var config = {
             id: "munich",
             title: "Landeshauptstadt München",
             image: 'assets/munich.JPG',
-            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Einige der Marktführer im deutschen 3D-Druck (z.B. Oerlikon) haben ihren Sitz in München. Im nahgelegenen Landkreis Starnberg finden wir einen weiteren 3D-Druck-Hotspot.",
+            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe (wie z.B. Siemens, MTU Aero Engines oder Infineon Technologies AG) stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Außerdem haben einige der Marktführer im deutschen 3D-Druck ihren Sitz in München oder dem nahgelegenen Landkreis Starnberg (u.a. EOS GmbH).",
             alignment: 'left',
             location: {
                 center: [11.57, 48.14],
