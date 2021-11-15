@@ -33,7 +33,7 @@ var config = {
         {
             id: "dach-start",
             title: "",
-            description: "↓ Zum Benutzen einfach nach unten scrollen ↓ <br><br>Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br>3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
+            description: "↓ Zum Benutzen einfach nach unten scrollen ↓ <br><br>Zur <a href=\"https://stories.istari.ai/ai/en\">englischen Version</a> wechseln<br><br>3D-Druck, oftmals auch als Additive Fertigung bezeichnet, umfasst eine Gruppe von modernen Fertigungstechnologien. Basierend auf einem digitalen Design werden durch das schichtweise Auftragen von Material komplexe Produkte hergestellt. Die Vorteile gegenüber herkömmlichen Fertigungsverfahren liegen in der Freiheit im Design sowie Flexibilität der Produktion. Relevant ist der 3D-Druck insbesondere für das Prototyping und die bedarfs- und kundenspezifische Fertigung von Endprodukten. <br><br> Auf der Karte sind die Top 10 der 3D-Druck Hotspots in Deutschland eingezeichnet.",
             image_bottom: 'assets/colourbar_de.png',
             alignment: 'left',
             location: {
@@ -62,7 +62,7 @@ var config = {
             title: "",
             description: "Für unsere Analyse haben wir knapp zwei Millionen Unternehmen untersucht. <a href=\"https://stories.istari.ai/3D/interactive\">Hier</a> findest du eine interaktive Karte, auf der unsere Ergebnisse nach Regionen zusammengefasst wurden. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
             image: 'assets/logos_transparent.png',
-            alignment: 'right',
+            alignment: 'center',
             location: {
                 center: [13, 51.25],
                 zoom: 5.1,
@@ -113,7 +113,7 @@ var config = {
             title: "3D-Druck-Hotspot Pforzheim",
             image: 'assets/pforzheim.JPG',
             description: "Pforzheim ist eine Großstadt am Nordrand des Schwarzwaldes. Sie ist weithin als “Goldstadt” bekannt, da ihre Schmuckindustrie knapp 80% des deutschen Exportschmucks produziert. Darüber hinaus stellt Pforzheim einen besonderen Standort für Zulieferer der Automobil- und Maschinenbauindustrie dar.",
-            alignment: 'right',
+            alignment: 'left',
             location: {
                 center: [8.71, 48.89],
                 zoom: 11
@@ -136,8 +136,8 @@ var config = {
             id: "munich",
             title: "Landeshauptstadt München",
             image: 'assets/munich.JPG',
-            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Einige der Marktführer im deutschen 3D-Druck (z.B. Oerlikon) haben ihren Sitz in München. Im nahgelegenen Landkreis Starnberg finden wir einen weiteren 3D-Druck-Hotspot.",
-            alignment: 'right',
+            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe (wie z.B. Siemens, MTU Aero Engines) stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Außerdem haben einige der Marktführer im deutschen 3D-Druck ihren Sitz in München oder dem nahgelegenen Landkreis Starnberg (u.a. EOS GmbH).",
+            alignment: 'left',
             location: {
                 center: [11.57, 48.14],
                 zoom: 10.5
@@ -191,7 +191,7 @@ var config = {
             id: "paper",
             title: "",
             description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> Bei Fragen kannst du dich bei Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) oder Sebastian Schmidt (<a href=mailto:sebastian.schmidt@plus.ac.at><span>&#9993;</span></a>) melden. ",
-            alignment: 'right',
+            alignment: 'left',
             location: {
                 center: [8.48, 49.48],
                 zoom: 9,
