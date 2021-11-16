@@ -60,7 +60,7 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "Die hier dargestellten Ergebnisse sind das Resultat einer Zusammenarbeit zwischen ISTARI.AI und der Professur für Innovationsökonomik der Technischen Universität München. <br> <br> Für unsere Analyse haben wir knapp zwei Millionen Unternehmen untersucht. <a href=\"https://stories.istari.ai/3D/interactive\">Hier</a> findest du eine interaktive Karte, auf der unsere Ergebnisse nach Regionen zusammengefasst wurden. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
+            description: "Die hier dargestellten Ergebnisse sind das Resultat einer Zusammenarbeit zwischen <a href=\"https://istari.ai/\">ISTARI.AI</a> und der <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professur für Innovationsökonomik</a> der Technischen Universität München. <br> <br> Für unsere Analyse haben wir knapp zwei Millionen Unternehmen untersucht. <a href=\"https://stories.istari.ai/3D/interactive\">Hier</a> findest du eine interaktive Karte, auf der unsere Ergebnisse nach Regionen zusammengefasst wurden. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
             image: 'assets/logos.png',
             alignment: 'center',
             location: {
@@ -88,7 +88,7 @@ var config = {
             id: "jena",
             title: "3D-Druck-Hotspot Jena",
             image: 'assets/jena.jpg',
-            description: "Jena ist eine Universitätsstadt in Mitteldeutschland an der Saale. Sie ist nach der Landeshauptstadt Erfurt die zweitgrößte Stadt in Thüringen. Die Stadt wird auch als “Lichtstadt” bezeichnet, da sie als Wiege der optischen Industrie in Europa gilt. Ursprung war die Gründung des Unternehmens Zeiss in Jena in der Mitte des 19. Jahrhunderts. Inzwischen ist insbesondere die enge Zusammenarbeit der beiden Hochschulen mit Forschungszentren und lokaler Industrie kennzeichnend für die Region. So ist Jena auch europäisches Zentrum der Forschung im Bereich Optik und Photonik.",
+            description: "Jena ist eine Universitätsstadt in Mitteldeutschland an der Saale. Sie ist nach der Landeshauptstadt Erfurt die zweitgrößte Stadt in Thüringen. Die Stadt wird auch als “Lichtstadt” bezeichnet, da sie als Wiege der optischen Industrie in Europa gilt. Inzwischen ist insbesondere die enge Zusammenarbeit der beiden Hochschulen mit Forschungszentren und lokaler Industrie kennzeichnend für die Region. Jena ist daher auch das europäische Zentrum der Forschung im Bereich Optik und Photonik. So konnten wir durch unsere Analyse z.B. das Leibniz-Institut für Photonische Technologien ausfindig machen, das 3D-Druck in seiner Forschung nutzt.",
             alignment: 'left',
             location: {
                 center: [11.58, 50.92],
@@ -112,7 +112,7 @@ var config = {
             id: "pforzheim",
             title: "3D-Druck-Hotspot Pforzheim",
             image: 'assets/pforzheim.JPG',
-            description: "Pforzheim ist eine Großstadt am Nordrand des Schwarzwaldes. Sie ist weithin als “Goldstadt” bekannt, da ihre Schmuckindustrie knapp 80% des deutschen Exportschmucks produziert. Darüber hinaus stellt Pforzheim einen besonderen Standort für Zulieferer der Automobil- und Maschinenbauindustrie dar.",
+            description: "Pforzheim ist eine Großstadt am Nordrand des Schwarzwaldes. Sie ist weithin als “Goldstadt” bekannt, da ihre Schmuckindustrie knapp 80% des deutschen Exportschmucks produziert. Darüber hinaus stellt Pforzheim einen besonderen Standort für Zulieferer der Automobil- und Maschinenbauindustrie dar. Unternehmen, die 3D-Druck verwenden, fanden wir dabei u.a. in den Gewerbegebieten 'Wilferdinger Höhe' und 'Altgefäll'.",
             alignment: 'left',
             location: {
                 center: [8.71, 48.89],
@@ -136,7 +136,7 @@ var config = {
             id: "munich",
             title: "Landeshauptstadt München",
             image: 'assets/munich.JPG',
-            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe (wie z.B. Siemens, MTU Aero Engines) stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Außerdem haben einige der Marktführer im deutschen 3D-Druck ihren Sitz in München oder dem nahgelegenen Landkreis Starnberg (u.a. EOS GmbH).",
+            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe (wie z.B. Siemens, MTU Aero Engines) stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Außerdem haben einige der Marktführer im deutschen 3D-Druck ihren Sitz in München oder dem nahgelegenen Landkreis Starnberg (u.a. EOS GmbH). Als 3D-Druck-Hotspots in der Stadt konnten wir u.a. das Münchner Technologiezentrum und den Stadtteil Obersendling identifizieren.",
             alignment: 'left',
             location: {
                 center: [11.57, 48.14],
