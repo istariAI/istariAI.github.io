@@ -60,8 +60,8 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "Für unsere Analyse haben wir knapp zwei Millionen Unternehmen untersucht. <a href=\"https://stories.istari.ai/3D/interactive\">Hier</a> findest du eine interaktive Karte, auf der unsere Ergebnisse nach Regionen zusammengefasst wurden. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
-            image: 'assets/logos_transparent.png',
+            description: "Die hier dargestellten Ergebnisse sind das Resultat einer Zusammenarbeit zwischen ISTARI.AI und der Professur für Innovationsökonomik der Technischen Universität München. <br> <br> Für unsere Analyse haben wir knapp zwei Millionen Unternehmen untersucht. <a href=\"https://stories.istari.ai/3D/interactive\">Hier</a> findest du eine interaktive Karte, auf der unsere Ergebnisse nach Regionen zusammengefasst wurden. Fahr einfach mit der Maus über die einzelnen Regionen, um dir die jeweiligen Anteile an 3D-Druck-Unternehmen anzuschauen. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
+            image: 'assets/logos.png',
             alignment: 'center',
             location: {
                 center: [13, 51.25],
