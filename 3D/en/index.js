@@ -72,7 +72,23 @@ function createLayers(layersSettings){
         id: element.id,
         data: element.data,
         getPosition: d => d.coordinates,
-        getRadius: 12,
+        getRadius: 50,
+        opacity: 0.5
+      }));
+    } else if (element.type == "technical_uni") {
+      layers.push(new deck.ScatterplotLayer({
+        id: element.id,
+        data: element.data,
+        getPosition: d => d.coordinates,
+        getRadius: 5000,
+        opacity: 0.5
+      }));
+    } else if (element.type == "point") {
+      layers.push(new deck.ScatterplotLayer({
+        id: element.id,
+        data: element.data,
+        getPosition: d => d.coordinates,
+        getRadius: 20,
         opacity: 0.7
       }));
     } else if (element.type == "bitmap" ) {
@@ -94,6 +110,12 @@ var features = document.createElement('div');
 features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
+
+if (config.header) {
+  var headerText = document.createElement('p');
+  headerText.innerHTML = config.header;
+  header.appendChild(headerText);
+}
 
 if (config.title) {
   var titleText = document.createElement('h1');
@@ -125,16 +147,16 @@ if (header.innerText.length > 0) {
 
 config.chapters.forEach((record, idx) => {
   console.log(record);
-  
+
   var container = document.createElement('div');
   var chapter = document.createElement('div');
-  
+
   if (record.title) {
     var title = document.createElement('h3');
     title.innerText = record.title;
     chapter.appendChild(title);
   }
-  
+
   if (record.image) {
     var image = new Image();
     image.src = record.image;
@@ -146,15 +168,21 @@ config.chapters.forEach((record, idx) => {
     video.setAttribute('title', "YouTube video player");
     video.setAttribute('allow', "accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;");
     video.setAttribute('allowfullscreen', true);
-    video.setAttribute('frameborder', "0"); 
+    video.setAttribute('frameborder', "0");
     video.setAttribute('src', "https://www.youtube.com/embed/" + record.youtubeId);
     chapter.appendChild(video);
   }
-  
+
   if (record.description) {
     var story = document.createElement('p');
     story.innerHTML = record.description;
     chapter.appendChild(story);
+  }
+
+    if (record.image_bottom) {
+    var image_bottom = new Image();
+    image_bottom.src = record.image_bottom;
+    chapter.appendChild(image_bottom);
   }
   
   container.setAttribute('id', record.id);
