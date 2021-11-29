@@ -33,7 +33,7 @@ var config = {
         {
             id: "dach-start",
             title: "",
-            description: "↓ Simply scroll down to use ↓ <br><br>Switch to <a href=\"https://stories.istari.ai/ai/de\">German version</a><br><br> 3D printing, often referred to as additive manufacturing, comprises a group of modern manufacturing technologies. Based on a digital design, complex products are made by applying material layer by layer. The advantages over conventional manufacturing processes lie in the freedom of design and flexibility of production. 3D printing is particularly relevant for prototyping and the demand- and customer-specific production of end products. <br><br> The map shows the top 10 3D printing hotspots in Germany.",
+            description: "↓ Simply scroll down to use ↓ <br><br>Switch to <a href=\"https://stories.istari.ai/3D/de\">German version</a><br><br> 3D printing, often referred to as additive manufacturing, comprises a group of modern manufacturing technologies. Based on a digital design, complex products are made by applying material layer by layer. The advantages over conventional manufacturing processes lie in the freedom of design and flexibility of production. 3D printing is particularly relevant for prototyping and the demand- and customer-specific production of end products. <br><br> The map shows the top 10 3D printing hotspots in Germany.",
             image_bottom: '../assets/colourbar.png',
             alignment: 'left',
             location: {
