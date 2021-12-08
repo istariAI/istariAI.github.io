@@ -88,7 +88,7 @@ var config = {
             id: "jena",
             title: "3D-Druck-Hotspot Jena",
             image: '../assets/jena.jpg',
-            description: "Jena ist eine Universitätsstadt in Mitteldeutschland an der Saale. Sie ist nach der Landeshauptstadt Erfurt die zweitgrößte Stadt in Thüringen. Die Stadt wird auch als “Lichtstadt” bezeichnet, da sie als Wiege der optischen Industrie in Europa gilt. Inzwischen ist insbesondere die enge Zusammenarbeit der beiden Hochschulen mit Forschungszentren und lokaler Industrie kennzeichnend für die Region. Jena ist daher auch das europäische Zentrum der Forschung im Bereich Optik und Photonik. So konnten wir durch unsere Analyse z.B. das Leibniz-Institut für Photonische Technologien ausfindig machen, das 3D-Druck in seiner Forschung nutzt.",
+            description: "Jena ist eine Universitätsstadt in Mitteldeutschland an der Saale. Sie ist nach der Landeshauptstadt Erfurt die zweitgrößte Stadt in Thüringen. Die Stadt wird auch als “Lichtstadt” bezeichnet, da sie als Wiege der optischen Industrie in Europa gilt. Inzwischen ist insbesondere die enge Zusammenarbeit der beiden Hochschulen mit Forschungszentren und lokaler Industrie kennzeichnend für die Region. Jena ist daher auch das europäische Zentrum der Forschung im Bereich Optik und Photonik. So konnten wir durch unsere Analyse z.B. das Leibniz-Institut für Photonische Technologien ausfindig machen, das 3D-Druck in seiner Forschung nutzt. <br><br> Gebiete mit hoher 3D-Druck-Intensität sind auf der Karte als rot dargestellt, Gebiete mit schwacher Intensität als blau.",
             alignment: 'left',
             location: {
                 center: [11.58, 50.92],

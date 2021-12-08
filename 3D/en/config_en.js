@@ -88,7 +88,7 @@ var config = {
             id: "jena",
             title: "3D printing hotspot Jena",
             image: '../assets/jena.jpg',
-            description: "Jena is a university town in central Germany on the river Saale. It is the second largest city in Thuringia after the state capital Erfurt. The city is also known as the \"City of Light\" because it is considered the cradle of the optical industry in Europe. Nowadays, the close cooperation of the two universities with research centres and local industry in particular is characteristic of the region. Jena is therefore also the European centre of research in optics and photonics. For example, our analysis enabled us to locate the Leibniz Institute for Photonic Technologies, which uses 3D printing in its research.",
+            description: "Jena is a university town in central Germany on the river Saale. It is the second largest city in Thuringia after the state capital Erfurt. The city is also known as the \"City of Light\" because it is considered the cradle of the optical industry in Europe. Nowadays, the close cooperation of the two universities with research centres and local industry in particular is characteristic of the region. Jena is therefore also the European centre of research in optics and photonics. For example, our analysis enabled us to locate the Leibniz Institute for Photonic Technologies, which uses 3D printing in its research. <br><br> Areas with high 3D printing intensity are shown on the map as red, areas with low intensity as blue.",
             alignment: 'left',
             location: {
                 center: [11.58, 50.92],
