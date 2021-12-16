@@ -33,7 +33,7 @@ var config = {
         {
             id: "dach-start",
             title: "",
-            description: "↓ Simply scroll down to use ↓ <br><br>Switch to <a href=\"https://stories.istari.ai/ai/de\">German version</a><br><br> 3D printing, often referred to as additive manufacturing, comprises a group of modern manufacturing technologies. Based on a digital design, complex products are made by applying material layer by layer. The advantages over conventional manufacturing processes lie in the freedom of design and flexibility of production. 3D printing is particularly relevant for prototyping and the demand- and customer-specific production of end products. <br><br> The map shows the top 10 3D printing hotspots in Germany.",
+            description: "↓ Simply scroll down to use ↓ <br><br>Switch to <a href=\"https://stories.istari.ai/3D/de\">German version</a><br><br> 3D printing, often referred to as additive manufacturing, comprises a group of modern manufacturing technologies. Based on a digital design, complex products are made by applying material layer by layer. The advantages over conventional manufacturing processes lie in the freedom of design and flexibility of production. 3D printing is particularly relevant for prototyping and the demand- and customer-specific production of end products. <br><br> The map shows the top 10 3D printing hotspots in Germany.",
             image_bottom: '../assets/colourbar.png',
             alignment: 'left',
             location: {
@@ -60,7 +60,7 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "The results presented here are the result of a collaboration between <a href=\"https://istari.ai/\">ISTARI.AI</a> and the <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professorship for Innovation Economics</a> at the Technical University of Munich. <br> <br> For our analysis, we examined almost two million companies. <a href=\"https://stories.istari.ai/3D/interactive\">Here</a> you can find an interactive map on which our results have been summarised by region. Simply hover your cursor over each region to see its share of 3D printing companies. <br><br> If you want to know how our webAI works, watch the video below.",
+            description: "The results presented here are the result of a collaboration between <a href=\"https://istari.ai/\">ISTARI.AI</a> and the <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professorship for Innovation Economics</a> at the Technical University of Munich. For our analysis, we examined almost two million companies.  <br><br> If you want to know how our webAI works, watch the video below.",
             image: '../assets/logos.png',
             alignment: 'center',
             location: {
@@ -88,7 +88,7 @@ var config = {
             id: "jena",
             title: "3D printing hotspot Jena",
             image: '../assets/jena.jpg',
-            description: "Jena is a university town in central Germany on the river Saale. It is the second largest city in Thuringia after the state capital Erfurt. The city is also known as the \"City of Light\" because it is considered the cradle of the optical industry in Europe. Nowadays, the close cooperation of the two universities with research centres and local industry in particular is characteristic of the region. Jena is therefore also the European centre of research in optics and photonics. For example, our analysis enabled us to locate the Leibniz Institute for Photonic Technologies, which uses 3D printing in its research.",
+            description: "Jena is a university town in central Germany on the river Saale. It is the second largest city in Thuringia after the state capital Erfurt. The city is also known as the \"City of Light\" because it is considered the cradle of the optical industry in Europe. Nowadays, the close cooperation of the two universities with research centres and local industry in particular is characteristic of the region. Jena is therefore also the European centre of research in optics and photonics. For example, our analysis enabled us to locate the Leibniz Institute for Photonic Technologies, which uses 3D printing in its research. <br><br> Areas with high 3D printing intensity are shown on the map as red, areas with low intensity as blue.",
             alignment: 'left',
             location: {
                 center: [11.58, 50.92],
@@ -191,7 +191,7 @@ var config = {
             id: "paper",
             title: "",
             description: "For more information, see our publication 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Authors: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> If you have any questions, please contact Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) or Sebastian Schmidt (<a href=mailto:sebastian.schmidt@plus.ac.at><span>&#9993;</span></a>).",
-            alignment: 'left',
+            alignment: 'center',
             location: {
                 center: [8.48, 49.48],
                 zoom: 9,
