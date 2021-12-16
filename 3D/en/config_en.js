@@ -60,7 +60,7 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "The results presented here are the result of a collaboration between <a href=\"https://istari.ai/\">ISTARI.AI</a> and the <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professorship for Innovation Economics</a> at the Technical University of Munich. <br> <br> For our analysis, we examined almost two million companies. <a href=\"https://stories.istari.ai/3D/interactive\">Here</a> you can find an interactive map on which our results have been summarised by region. Simply hover your cursor over each region to see its share of 3D printing companies. <br><br> If you want to know how our webAI works, watch the video below.",
+            description: "The results presented here are the result of a collaboration between <a href=\"https://istari.ai/\">ISTARI.AI</a> and the <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professorship for Innovation Economics</a> at the Technical University of Munich. For our analysis, we examined almost two million companies.  <br><br> If you want to know how our webAI works, watch the video below.",
             image: '../assets/logos.png',
             alignment: 'center',
             location: {
