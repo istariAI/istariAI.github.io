@@ -136,7 +136,7 @@ var config = {
             id: "munich",
             title: "State capital Munich",
             image: '../assets/munich.JPG',
-            description: "In contrast to Jena and Pforzheim, Munich is a metropolis. In addition to the presence of many large industrial companies (such as Siemens, MTU Aero Engines), the Bavarian capital is also an important location for research. Furthermore, some of the market leaders in German 3D printing are based in Munich or the nearby district of Starnberg (including EOS GmbH). We were able to identify the Munich Technology Centre and the Obersendling district, among others, as 3D printing hotspots in the city.",
+            description: "In contrast to Jena and Pforzheim, Munich is a metropolis. In addition to the presence of many large industrial companies (such as Siemens & MTU Aero Engines), the Bavarian capital is also an important location for research. Furthermore, some of the market leaders in German 3D printing are based in Munich or the nearby district of Starnberg (including EOS GmbH). We were able to identify the Munich Technology Centre and the Obersendling district, among others, as 3D printing hotspots in the city.",
             alignment: 'left',
             location: {
                 center: [11.57, 48.14],
@@ -190,7 +190,7 @@ var config = {
         {
             id: "paper",
             title: "",
-            description: "For more information, see our publication 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Authors: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> If you have any questions, please contact Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) or Sebastian Schmidt (<a href=mailto:sebastian.schmidt@plus.ac.at><span>&#9993;</span></a>).",
+            description: "For more information, see our publication 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Authors: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> If you have any questions, please contact Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) or Sebastian Schmidt (<a href=mailto:sebastian.schmidt@istari.ai><span>&#9993;</span></a>).",
             alignment: 'center',
             location: {
                 center: [8.48, 49.48],
