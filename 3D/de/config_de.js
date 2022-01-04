@@ -60,7 +60,7 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "Die hier dargestellten Ergebnisse sind das Resultat einer Zusammenarbeit zwischen <a href=\"https://istari.ai/\">ISTARI.AI</a> und der <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professur für Innovationsökonomik</a> der Technischen Universität München. Für unsere Analyse haben wir knapp zwei Millionen Unternehmen untersucht. <br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
+            description: "Die hier dargestellten Ergebnisse sind das Resultat einer Zusammenarbeit zwischen <a href=\"https://istari.ai/\">ISTARI.AI</a> und der <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professur für Innovationsökonomik</a> der Technischen Universität München. Für unsere Analyse haben wir knapp 1,3 Millionen Unternehmen untersucht. <br><br> Wenn du dir die Daten interaktiv auf Landkreisebene ansehen möchtest, klicke auf diesen <a href=\"hhttps://stories.istari.ai/3D/interactive\">Link</a>.<br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
             image: '../assets/logos.png',
             alignment: 'center',
             location: {
@@ -136,7 +136,7 @@ var config = {
             id: "munich",
             title: "Landeshauptstadt München",
             image: '../assets/munich.JPG',
-            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe (wie z.B. Siemens, MTU Aero Engines) stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Außerdem haben einige der Marktführer im deutschen 3D-Druck ihren Sitz in München oder dem nahgelegenen Landkreis Starnberg (u.a. EOS GmbH). Als 3D-Druck-Hotspots in der Stadt konnten wir u.a. das Münchner Technologiezentrum und den Stadtteil Obersendling identifizieren.",
+            description: "Im Gegensatz zu Jena und Pforzheim handelt es sich bei München um eine Metropole. Neben der Präsenz vieler großer Industriebetriebe (wie z.B. Siemens & MTU Aero Engines) stellt die bayrische Landeshauptstadt auch einen wichtigen Standort für Forschung dar. Außerdem haben einige der Marktführer im deutschen 3D-Druck ihren Sitz in München oder dem nahgelegenen Landkreis Starnberg (u.a. EOS GmbH). Als 3D-Druck-Hotspots in der Stadt konnten wir u.a. das Münchner Technologiezentrum und den Stadtteil Obersendling identifizieren.",
             alignment: 'left',
             location: {
                 center: [11.57, 48.14],
@@ -190,7 +190,7 @@ var config = {
         {
             id: "paper",
             title: "",
-            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> Bei Fragen kannst du dich bei Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) oder Sebastian Schmidt (<a href=mailto:sebastian.schmidt@plus.ac.at><span>&#9993;</span></a>) melden. ",
+            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> Bei Fragen kannst du dich bei Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) oder Sebastian Schmidt (<a href=mailto:sebastian.schmidt@istari.ai><span>&#9993;</span></a>) melden. ",
             alignment: 'center',
             location: {
                 center: [8.48, 49.48],

@@ -8,7 +8,7 @@ var colorMap = [
   [255, 151,  42]
 ]
 
-fetch("data/know_how_boundary.json")
+fetch("../data/3D_engaged_edited.json")
   .then(response => response.json())
   .then(function(data) {
   console.log(data);
@@ -31,9 +31,9 @@ fetch("data/know_how_boundary.json")
     mapStyle: 'mapbox://styles/istariai/ckt8nk7h4541f17k7idd5jesc',
     mapboxApiAccessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
     initialViewState: {
-      longitude: 10.5,
-      latitude: 50.3,
-      zoom: 5.5,
+      longitude: 10.36,
+      latitude: 50.82,
+      zoom: 5,
       pitch: 0,
       bearing: 0
     },
@@ -42,7 +42,7 @@ fetch("data/know_how_boundary.json")
       dragPan: true,
       doubleClickZoom: true,
       touchZoom: false,
-      tourchRotate: false
+      touchRotate: false
     },
     getTooltip: ({object}) => object && {
       html: object.properties.text,
