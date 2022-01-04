@@ -60,7 +60,7 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "The results presented here are the result of a collaboration between <a href=\"https://istari.ai/\">ISTARI.AI</a> and the <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professorship for Innovation Economics</a> at the Technical University of Munich. For our analysis, we examined almost two million companies. <br><br> If you would like to view the data interactively at the county level, click this <a href=\"hhttps://stories.istari.ai/3D/interactive\">link</a>.  <br><br> If you want to know how our webAI works, watch the video below.",
+            description: "The results presented here are the result of a collaboration between <a href=\"https://istari.ai/\">ISTARI.AI</a> and the <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professorship for Innovation Economics</a> at the Technical University of Munich. For our analysis, we examined 1.3 million companies. <br><br> If you would like to view the data interactively at the county level, click this <a href=\"hhttps://stories.istari.ai/3D/interactive\">link</a>.  <br><br> If you want to know how our webAI works, watch the video below.",
             image: '../assets/logos.png',
             alignment: 'center',
             location: {
