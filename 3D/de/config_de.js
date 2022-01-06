@@ -4,7 +4,7 @@ var config = {
     //byline: "Byline",
     image: '../assets/Istari_farbig.png',
     style: 'mapbox://styles/istariai/ckt8nk7h4541f17k7idd5jesc',
-    accessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
+    accessToken: api.Key,
     theme: 'light',
     header: '<h1>3D-Druck in Deutschland</h1>',
     //header: '<br> <a href="https://istari.ai/"> <img src="assets/Istari_farbig.png" style="float:left; vertical-align:middle; margin-left: 30px; width:282px;height:45px;"> </a>  <a href="https://www.professors.wi.tum.de/eoi/startseite/""> <img src="assets/tum_logo.png" style="float:right;vertical-align:top; margin-right: 30px;width:135px;height:50px;"> </a> <h1>3D-Druck in Deutschland</h1> <br>',
