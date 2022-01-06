@@ -190,7 +190,7 @@ var config = {
         {
             id: "paper",
             title: "",
-            description: "For more information, see our publication 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Authors: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> If you have any questions, please contact Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) or Sebastian Schmidt (<a href=mailto:sebastian.schmidt@istari.ai><span>&#9993;</span></a>).",
+            description: "For more information, see our publication 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href='https://arxiv.org/abs/2201.01125'>Link</a>) <br><br> Authors: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> If you have any questions, please contact Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) or Sebastian Schmidt (<a href=mailto:sebastian.schmidt@istari.ai><span>&#9993;</span></a>).",
             alignment: 'center',
             location: {
                 center: [8.48, 49.48],
