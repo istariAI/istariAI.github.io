@@ -4,7 +4,7 @@ var config = {
     //byline: "Byline",
     image: '../assets/Istari_farbig.png',
     style: 'mapbox://styles/istariai/ckt8nk7h4541f17k7idd5jesc',
-    accessToken: 'pk.eyJ1IjoiaXN0YXJpYWkiLCJhIjoiY2tzb24xb2tiMGF6YzJ3cGpiaWE1d3hibCJ9.XryS-LoCf6KIyznvGyI2ZA',
+    accessToken: api.Key,
     theme: 'light',
     header: '<h1>3D-Druck in Deutschland</h1>',
     //header: '<br> <a href="https://istari.ai/"> <img src="assets/Istari_farbig.png" style="float:left; vertical-align:middle; margin-left: 30px; width:282px;height:45px;"> </a>  <a href="https://www.professors.wi.tum.de/eoi/startseite/""> <img src="assets/tum_logo.png" style="float:right;vertical-align:top; margin-right: 30px;width:135px;height:50px;"> </a> <h1>3D-Druck in Deutschland</h1> <br>',
@@ -60,7 +60,7 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "Die hier dargestellten Ergebnisse sind das Resultat einer Zusammenarbeit zwischen <a href=\"https://istari.ai/\">ISTARI.AI</a> und der <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professur für Innovationsökonomik</a> der Technischen Universität München. Für unsere Analyse haben wir knapp 1,3 Millionen Unternehmen untersucht. <br><br> Wenn du dir die Daten interaktiv auf Landkreisebene ansehen möchtest, klicke auf diesen <a href=\"hhttps://stories.istari.ai/3D/interactive\">Link</a>.<br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
+            description: "Die hier dargestellten Ergebnisse sind das Resultat einer Zusammenarbeit zwischen <a href=\"https://istari.ai/\">ISTARI.AI</a> und der <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professur für Innovationsökonomik</a> der Technischen Universität München. Für unsere Analyse haben wir knapp 1,3 Millionen Unternehmen untersucht. <br><br> Wenn du dir die Daten interaktiv auf Landkreisebene ansehen möchtest, klicke auf diesen <a href=\"https://stories.istari.ai/3D/interactive\">Link</a>.<br><br> Wenn du wissen willst, wie unsere webAI funktioniert, dann schau dir das Video unten an.",
             image: '../assets/logos.png',
             alignment: 'center',
             location: {
@@ -190,7 +190,7 @@ var config = {
         {
             id: "paper",
             title: "",
-            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> Bei Fragen kannst du dich bei Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) oder Sebastian Schmidt (<a href=mailto:sebastian.schmidt@istari.ai><span>&#9993;</span></a>) melden. ",
+            description: "Weitere Informationen findest du in unserer Veröffentlichung 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href='https://arxiv.org/abs/2201.01125'>Link</a>) <br><br> Autoren: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> Bei Fragen kannst du dich bei Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) oder Sebastian Schmidt (<a href=mailto:sebastian.schmidt@istari.ai><span>&#9993;</span></a>) melden. ",
             alignment: 'center',
             location: {
                 center: [8.48, 49.48],

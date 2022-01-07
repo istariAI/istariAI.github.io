@@ -60,7 +60,7 @@ var config = {
         {
             id: "total-data",
             title: "",
-            description: "The results presented here are the result of a collaboration between <a href=\"https://istari.ai/\">ISTARI.AI</a> and the <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professorship for Innovation Economics</a> at the Technical University of Munich. For our analysis, we examined 1.3 million companies. <br><br> If you would like to view the data interactively at the county level, click this <a href=\"hhttps://stories.istari.ai/3D/interactive\">link</a>.  <br><br> If you want to know how our webAI works, watch the video below.",
+            description: "The results presented here are the result of a collaboration between <a href=\"https://istari.ai/\">ISTARI.AI</a> and the <a href=\"https://www.professors.wi.tum.de/eoi/startseite/\">Professorship for Innovation Economics</a> at the Technical University of Munich. For our analysis, we examined 1.3 million companies. <br><br> If you would like to view the data interactively at the county level, click this <a href=\"https://stories.istari.ai/3D/interactive\">link</a>.  <br><br> If you want to know how our webAI works, watch the video below.",
             image: '../assets/logos.png',
             alignment: 'center',
             location: {
@@ -190,7 +190,7 @@ var config = {
         {
             id: "paper",
             title: "",
-            description: "For more information, see our publication 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href=''>Link</a>) <br><br> Authors: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> If you have any questions, please contact Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) or Sebastian Schmidt (<a href=mailto:sebastian.schmidt@istari.ai><span>&#9993;</span></a>).",
+            description: "For more information, see our publication 'Technology Mapping Using WebAI: The Case of 3D Printing' (<a href='https://arxiv.org/abs/2201.01125'>Link</a>) <br><br> Authors: Robert Dehghan, Hanna Hottenrott, Jan Kinne, David Lenz, Elisa Rodepeter, Sebastian Schmidt, Julian Schwierzy, Andreas Stömmer, Kaan Uçtum. <br><br> If you have any questions, please contact Julian Schwierzy (<a href=mailto:julian.schwierzy@tum.de><span>&#9993;</span></a>) or Sebastian Schmidt (<a href=mailto:sebastian.schmidt@istari.ai><span>&#9993;</span></a>).",
             alignment: 'center',
             location: {
                 center: [8.48, 49.48],
